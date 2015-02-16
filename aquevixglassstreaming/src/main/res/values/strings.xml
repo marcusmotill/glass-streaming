@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">example3</string>
+    <string name="start">Start/Stop Streaming</string>
+    <string name="flash">Flash</string>
+    <string name="camera">Camera</string>
+    <string name="video">Video Settings</string>
+    <string name="save">OK</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="uri">URI</string>
+    <string name="password_hint">Leave empty if not needed</string>
+    <string name="username_hint">Leave empty if not needed</string>
+    <string name="default_bitrate">0 kbps</string>
+    <string name="default_stream">rtsp://192.168.1.2:1935/live/AQTest1.mp4</string>
+
+    <string name="ipAddress">192.168.1.2</string>
+    <string name="port">1935</string>
+    <string name="streamPath">/interapt/myStream</string>
+
+    <string name="main_menu_change_ip_address">Change IP</string>
+    <string name="main_menu_toggle_stream">Toggle Stream</string>
+    <string name="changeip_menu_close">Close</string>
+    <string name="changeip_menu_save">Save</string>
+    <string name="menu_quit_item">Quit</string>
+    <string name="menu_return_item">Return</string>
+
+    <string name="live">Live</string>
+    <string name="start_demo">Stream Video</string>
+    <string name="interapt">Interapt</string>
+</resources>

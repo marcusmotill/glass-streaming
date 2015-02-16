@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.path="$USER_HOME$/AndroidStudioProjects/aquevix-glass-streaming" external.root.project.path="$USER_HOME$/AndroidStudioProjects/aquevix-glass-streaming" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="java-gradle" name="Java-Gradle">
+      <configuration>
+        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/build" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/AndroidStudioProjects/aquevix-glass-streaming">
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/aquevix-glass-streaming/.gradle" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/aquevix-glass-streaming/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

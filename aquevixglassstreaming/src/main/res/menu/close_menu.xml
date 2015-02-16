@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/quit_close_menu_item"
+        android:title="@string/menu_quit_item"
+        android:icon="@drawable/ic_launcher" />
+    <!--
+    <item
+        android:id="@+id/return_close_menu_item"
+        android:title="@string/menu_return_item"
+        android:icon="@drawable/ic_settings_holo_light" /> -->
+    <item
+        android:id="@+id/change_ip"
+        android:title="@string/main_menu_change_ip_address"
+        android:icon="@drawable/ic_settings_holo_light" />
+
+</menu>

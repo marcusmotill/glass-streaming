@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/save_menu_item"
+        android:title="@string/changeip_menu_save"
+        android:icon="@drawable/ic_switch_video" />
+
+    <item
+        android:id="@+id/quit_menu_item"
+        android:title="@string/changeip_menu_close"
+        android:icon="@drawable/ic_switch_video" />
+
+
+
+</menu><!-- From: file:/Users/Alex/Desktop/GlassLayoutTests/Glass%20Streaming%20App/aquevixglassstreaming/src/main/res/menu/changeip_card_menu.xml -->

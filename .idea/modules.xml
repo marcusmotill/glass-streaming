@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Glass Streaming App.iml" filepath="$PROJECT_DIR$/Glass Streaming App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aquevixglassstreaming/aquevixglassstreaming.iml" filepath="$PROJECT_DIR$/aquevixglassstreaming/aquevixglassstreaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libstreaming/libstreaming.iml" filepath="$PROJECT_DIR$/libstreaming/libstreaming.iml" />
+    </modules>
+  </component>
+</project>
+

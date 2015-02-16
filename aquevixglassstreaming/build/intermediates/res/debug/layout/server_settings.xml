@@ -1,0 +1,163 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/server_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg"
+        android:padding="14dp" >
+
+        <LinearLayout
+            android:id="@+id/input_uri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uri: rtsp://"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/txt_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ipAddress"
+                android:inputType="text"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/txt_port"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/port"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/txt_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/streamPath"
+                android:singleLine="true" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_below="@+id/input_uri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <!--
+            <TableRow>
+
+
+                <TextView
+                    android:id="@+id/indicationUri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:paddingRight="10dp"
+                    android:text="@string/uri"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/uri"
+                    style="@style/EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="0dp"
+                    android:inputType="textUri"
+                    android:singleLine="true"
+                    android:text="@string/default_stream" >
+                </EditText>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/indicationUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:paddingRight="10dp"
+                    android:text="@string/username"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/username"
+                    style="@style/EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:hint="Not currently supported." />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:text="@string/password"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/password"
+                    style="@style/EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:hint="Not currently supported."
+                    android:inputType="textVisiblePassword"
+                    android:singleLine="true" />
+            </TableRow>-->
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/table"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Press the shutter button to begin streaming"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout><!-- From: file:/Users/Alex/Desktop/GlassLayoutTests/Glass%20Streaming%20App/aquevixglassstreaming/src/main/res/layout/server_settings.xml -->

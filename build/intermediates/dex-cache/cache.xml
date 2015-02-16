@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Alex/Documents/Coding/Backup Stuff/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/Alex/Desktop/GlassLayoutTests/Glass Streaming App/aquevixglassstreaming/build/intermediates/pre-dexed/debug/support-v4-19.1.0-88a1d06356325c6fb3e09e16cf23f2d70073943d.jar" />
+    </item>
+    <item
+        jar="/Users/Alex/Desktop/GlassLayoutTests/Glass Streaming App/aquevixglassstreaming/build/intermediates/exploded-aar/Glass Streaming App/libstreaming/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="690f69f896e05b9b0c53a81ee6a970adff825f2e">
+        <dex dex="/Users/Alex/Desktop/GlassLayoutTests/Glass Streaming App/aquevixglassstreaming/build/intermediates/pre-dexed/debug/classes-3a815ab5c9f3bd5b1eef0f75d3f73302edefe942.jar" />
+    </item>
+
+</items>

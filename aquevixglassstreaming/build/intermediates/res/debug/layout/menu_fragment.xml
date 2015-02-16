@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/menu_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:src="@drawable/menu"
+        android:background="@android:color/transparent"/>
+    <!--
+    android:scaleType="fitXY"
+    -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Standby"
+        android:paddingBottom="3dp"
+        android:id="@+id/liveTextViewSlidingMenu"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press the Camera Button to Begin Streaming"
+        android:textSize="14dp"
+        android:id="@+id/hintTextView"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*:** remaining"
+        android:id="@+id/batteryLevelTextView"
+        android:textSize="16dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123.254.20.01:1935/interapt/myStream"
+        android:textSize="19dp"
+        android:id="@+id/streamInfoTextView"
+        android:textColor="@android:color/holo_orange_light"
+
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="65dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/signalnone"
+        android:id="@+id/streamQualityImageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signalnone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+        -->
+
+</RelativeLayout><!-- From: file:/Users/Alex/Desktop/GlassLayoutTests/Glass%20Streaming%20App/aquevixglassstreaming/src/main/res/layout/menu_fragment.xml -->

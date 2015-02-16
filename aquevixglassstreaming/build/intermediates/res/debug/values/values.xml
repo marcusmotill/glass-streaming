@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Alex/Desktop/GlassLayoutTests/Glass%20Streaming%20App/aquevixglassstreaming/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="light_grey">#808080</color>
+    <!-- From: file:/Users/Alex/Desktop/GlassLayoutTests/Glass%20Streaming%20App/aquevixglassstreaming/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <!-- From: file:/Users/Alex/Desktop/GlassLayoutTests/Glass%20Streaming%20App/aquevixglassstreaming/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">example3</string>
+    <string name="camera">Camera</string>
+    <string name="changeip_menu_close">Close</string>
+    <string name="changeip_menu_save">Save</string>
+    <string name="default_bitrate">0 kbps</string>
+    <string name="default_stream">rtsp://192.168.1.2:1935/live/AQTest1.mp4</string>
+    <string name="flash">Flash</string>
+    <string name="interapt">Interapt</string>
+    <string name="ipAddress">192.168.1.2</string>
+    <string name="live">Live</string>
+    <string name="main_menu_change_ip_address">Change IP</string>
+    <string name="main_menu_toggle_stream">Toggle Stream</string>
+    <string name="menu_quit_item">Quit</string>
+    <string name="menu_return_item">Return</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Leave empty if not needed</string>
+    <string name="port">1935</string>
+    <string name="save">OK</string>
+    <string name="start">Start/Stop Streaming</string>
+    <string name="start_demo">Stream Video</string>
+    <string name="streamPath">/interapt/myStream</string>
+    <string name="uri">URI</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Leave empty if not needed</string>
+    <string name="video">Video Settings</string>
+    <!-- From: file:/Users/Alex/Desktop/GlassLayoutTests/Glass%20Streaming%20App/aquevixglassstreaming/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:ems">18</item>
+    </style>
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton">
+        <item name="android:button">@null</item>
+        <item name="android:padding">5dp</item>
+    </style>
+</resources>
